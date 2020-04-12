@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/limits_header">
+
+        <EditTextPreference
+            app:key="anglepref"
+            app:title="@string/angle_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="ecgpref"
+            app:title="@string/ecg_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/notif_header">
+
+        <SwitchPreferenceCompat
+            app:key="androidpref"
+            app:title="@string/android_title"/>
+
+        <SwitchPreferenceCompat
+            app:key="stats"
+            app:summaryOff="@string/summary_desc_off"
+            app:summaryOn="@string/summary_desc_on"
+            app:title="@string/summary_title" />
+
+        <EditTextPreference
+            app:key="counterpref"
+            app:title="Warning Time (S)"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/bt_header">
+
+        <Preference
+            app:key="resetBD"
+            app:title="Open Bluetooth Settings..."
+            app:widgetLayout="@layout/settings_activity"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
