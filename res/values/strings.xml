@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PostureUp</string>
+    <string name="monitor_button">Monitor</string>
+    <string name="feedback_button">Feedback</string>
+    <string name="title_string">PostureUp</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="start_string">Start</string>
+    <string name="stop_string">Stop</string>
+    <string name="calibrate_string">Calibrate</string>
+    <string name="angle_string">EMG Baseline</string>
+
+    <string name="starttime_string">Start Time</string>
+
+    <!-- Preference Titles -->
+    <string name="limits_header">Sensors</string>
+    <string name="notif_header">Notifications</string>
+    <string name="bt_header">Bluetooth</string>
+
+    <!-- Limits Preferences -->
+    <string name="angle_title">Angle Warning</string>
+    <string name="angle_desc">Angle limit for notification</string>
+    <string name="ecg_title">EMG Sensor Count</string>
+
+    <!-- Notification Preferences -->
+    <string name="android_title">Android Notifications</string>
+
+    <string name="summary_title">Summary Mode</string>
+    <string name="summary_desc_on">Receive hourly statistics notifications</string>
+    <string name="summary_desc_off">Receive notifications when angle limit exceeded for the warning time limit</string>
+</resources>
